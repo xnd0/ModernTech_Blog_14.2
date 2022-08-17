@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
-<header>
+{{!-- <header>
   <div class="flex-row justify-center p-3">
     <h7> A blog about modern technology.</h7>
   </div>
-</header>
+</header> --}}
 
 <main>
   <div>
@@ -23,26 +23,19 @@
       {{#each songs as |song|}}
       <div class="row mb-2 song-list outline songcard">
         <div class="col-md-8" id = "bulk">
-          <h5>"{{song_name}}"</h5>
-          <div> by
-            <h3>{{artist_name}}</h3>
-          </div>
-          <img src={{ url }}>
+          <h5>HEADLINE: {{song_name}}</h5>
           <div class = "song_content">
-            <iframe class = "video_iframe"
-            src="{{ song.video_link }}" 
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div id = "special">
             {{#each comments as |comment| }}
-            <p>"{{comment.comment_text}}"</p>
+            <p>User's thoughts: {{comment.comment_text}}</p>
             {{/each}}
+          </div>
+          <div> submitted by: <h6>{{artist_name}}</h6>
           </div>
         </div>
         <div class="col-md-4">
-          <button class="btn btn-sm btn-danger" data-id="{{song.id}}">&#127911; Listen</button>
-          <br><br>
-          <button class="btn btn-sm btn-danger" data-id="{{song.id}}">&#128172; Comment</button>
+          <button class="btn btn-sm btn-primary" data-id="{{song.id}}">&#128172; Comment</button>
         </div>
       </div>
       {{/each}}

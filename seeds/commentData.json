@@ -1,14 +1,14 @@
 [
     {
       "song_id": 1,
-      "comment_text": "I love this song!"
+      "comment_text": "Put your USB drive in the right way the first time"
     },
     {
       "song_id": 2,
-      "comment_text": "This song always gives good vibes"
+      "comment_text": "No Argument. Javascript is the best language!!"
     },
     {
         "song_id": 3,
-        "comment_text": "This song always puts me in a good mood!"
+        "comment_text": "I supposed Python is pretty good considering all the libraries available"
       }
   ]

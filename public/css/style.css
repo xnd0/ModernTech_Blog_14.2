@@ -1,0 +1,83 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  background-color: #161B22;
+}
+
+body {
+  background-color: #212e40;
+}
+
+.no-button:hover {
+  color: #430a6e;
+  text-decoration: underline;
+}
+
+.fig {
+  width: 100px;
+  height: 100px;
+}
+
+.outline {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 8px;
+}
+
+.songcard {
+  background-color: #69b9a9;
+}
+
+.no-button{
+  background-color: #F8F8F8;
+}
+
+#footer {
+  color: whitesmokes;
+  text-align: center;
+  padding: 20px;
+  font-size: larger;
+  border: 2px solid;
+}
+
+nav {
+  font-size: 25px;
+}
+
+h7 {
+  font-family: 'Andale Mono', monospace;
+}
+
+#currentDate {
+  font-family: 'Andale Mono', monospace;
+  background-color: #69b9a9;
+}
+
+#special {
+  color: rgb(62, 30, 90);
+  font-family: 'Cambria', serif;
+}
+
+#a {
+  font-family: monospace;
+}
+
+#footer {
+  font-family: 'Cambria', serif;
+}
+
+h2 {
+  font-family: monospace;
+}
+
+.song_content {
+  display: flex;
+  /* x-axis */
+  justify-content: center;
+    /* y-axis */
+  align-items: center;
+}
+
+.light-text {
+  color:azure;
+}

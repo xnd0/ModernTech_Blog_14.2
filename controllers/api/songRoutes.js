@@ -12,7 +12,6 @@ router.post('/', async (req, res) => {
         const songData = await Song.create({
             song_name: req.body.song_name,
             artist_name: req.body.artist_name,
-            url: req.body.url,
 
         });
 

@@ -1,20 +1,17 @@
 [
     {
       "id": 1,
-      "song_name": "Refugee",
-      "artist_name": "Tom Petty",
-      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315438/figJam_songs/71YUxDOihbL._SS500__a8nlzn.jpg"
+      "song_name": "Flip Your USB Stick!",
+      "artist_name": "Thumbdrive Guy"
     },
     {
       "id": 2,
-      "song_name": "Come Together",
-      "artist_name": "The Beatles",
-      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315440/figJam_songs/Beatles_-_Abbey_Road_shsgtv.jpg"
+      "song_name": "Javascript is the Superior Coding Language",
+      "artist_name": "Ed 2000"
     },
     {
         "id": 3,
-        "song_name": "Three Little Birds",
-        "artist_name": "Bob Marley",
-        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315444/figJam_songs/Bob_Marley_Three_Little_Birds_cintud.jpg"
+        "song_name": "Python Rocks",
+        "artist_name": "Bob"
     }
   ]

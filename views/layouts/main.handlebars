@@ -13,7 +13,6 @@
   <p class="flex-row p-1" id="currentDate">time</p>
   <div class="flex-column justify-space-around">
     <header class="display-flex justify-space-around align-center p-2">
-      <img class = "fig" aria-label="figgin' cool" src = "/images/st,small,507x507-pad,600x600,f8f8f8.jpg"/>
       <h1 id = "title">
         <a href="/">ModernTech Blog</a>
       </h1>
@@ -28,8 +27,8 @@
         <br>
         <div>
             {{!-- display email of current user --}}
-            <p> logged in as: </p>
-              <h6>  {{ email }} </h6>
+            <p class="light-text"> logged in as: </p>
+              <h6 class="light-text">  {{ email }} </h6>
         </div>
         {{else}}
         <a href="/login" class="outline">login</a>
