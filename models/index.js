@@ -1,5 +1,4 @@
 const User = require("./User");
-const Video = require("./Video");
 const Song = require("./Song");
 const Comment = require("./Comment");
 
@@ -17,4 +16,4 @@ Song.hasMany(Comment, {
   
 
 
-module.exports = {User, Video, Song, Comment}
+module.exports = {User, Song, Comment}

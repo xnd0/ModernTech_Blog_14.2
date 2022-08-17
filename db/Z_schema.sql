@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS moderntech_db;
+DROP DATABASE IF EXISTS musicvids_db;
 
-CREATE DATABASE moderntech_db;
+CREATE DATABASE musicvids_db;
 
-USE moderntech_db;
+USE musicvids_db;
 
 CREATE TABLE songs (
     id INT AUTO_INCREMENT PRIMARY KEY,

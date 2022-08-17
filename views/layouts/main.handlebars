@@ -4,25 +4,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fund My Project!</title>
+  <title>ModernTech Blog</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
+  <p class="flex-row p-1" id="currentDate">time</p>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="money">💸</span>
-        <a href="/">Fund My Project!</a>
+    <header class="display-flex justify-space-around align-center p-2">
+      <img class = "fig" aria-label="figgin' cool" src = "/images/st,small,507x507-pad,600x600,f8f8f8.jpg"/>
+      <h1 id = "title">
+        <a href="/">ModernTech Blog</a>
       </h1>
-      <nav>
+      <nav class="display-flex flex-wrap">
+        {{!-- nav links to other App pages --}}
+        <a href="/" class="outline" >homepage</a>
+        <a href="/songlist" class="outline">post list</a>
+        <a href="/add-song" class="outline">add a post</a>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
+        <button class="no-button outline" id="logout">logout</button>
+        <br>
+        <div>
+            {{!-- display email of current user --}}
+            <p> logged in as: </p>
+              <h6>  {{ email }} </h6>
+        </div>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" class="outline">login</a>
         {{/if}}
       </nav>
     </header>
@@ -31,14 +41,19 @@
       {{{ body }}}
     </main>
     <footer>
-      
+      <p id="footer">ModernTech Blog 2022</p>
     </footer>
   </div>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
-  <script src="/js/logout.js"></script>
+    <script src="/js/logout.js"></script>
   {{/if}}
 </body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="/js/time.js"></script>
 </html>

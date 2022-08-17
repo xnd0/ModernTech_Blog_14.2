@@ -1,0 +1,27 @@
+{{!-------------------------------}}
+{{!----- songlist.handlebars -----}}
+{{!-------------------------------}}
+
+<div>
+    {{#if songs.length}}
+    <div class="text-center song-list">
+        <h2>ModernTech Post List:</h2>
+
+        {{#each songs as |song|}}
+        <div class="row mb-2 song-list outline songcard">
+            <div class="col-md-8">
+
+                <h5>{{song_name}}</h5>
+                <div>by
+                    <h3>{{artist_name}}</h3>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-sm btn-danger" data-id="{{song.id}}">View</button>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    {{/if}}
+</div>

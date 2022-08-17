@@ -10,26 +10,5 @@
     {
         "song_id": 3,
         "comment_text": "This song always puts me in a good mood!"
-      },
-    {
-      "song_id": 4,
-      "comment_text": "Best song Ever!"
-    },
-    {
-        "song_id": 5,
-        "comment_text": "Love this artist"
-    },
-
-    {
-      "song_id": 6,
-      "comment_text": "The live version of this song is AMAZING!"
-    },
-    {
-      "song_id": 7,
-      "comment_text": "I LOVE THIS SONG AND BAD BUNNY!❤️🔥"
-    },
-    {
-        "song_id": 8,
-        "comment_text": "I be Jammin' out to this song!"
       }
   ]

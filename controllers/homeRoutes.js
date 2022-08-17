@@ -4,24 +4,17 @@
 
 
 const router = require('express').Router()
-const { Song , Comment, Video } = require('../models');
+const { Song , Comment} = require('../models');
 
 // GET all songs 
 router.get('/', async (req, res) => {
     const songData = await Song.findAll({
         include : [{ model: Comment }]
     })
-    const videoData = await Video.findAll({
-
-    });
 
     // Serialize data so the template can read it
-    const videos = videoData.map(video => video.get({plain: true }));
     const songs = songData.map((song) => song.get({ plain: true }));
 
-    songs.forEach(song => {
-        song.video_link = videos.find(video => video.song_id === song.id)?.video_link;
-    })
     console.log(songs);
     res.render('home', { songs , email: req.session.email, logged_in: req.session.logged_in });
 });

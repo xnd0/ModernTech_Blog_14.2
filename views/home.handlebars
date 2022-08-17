@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<header>
+  <div class="flex-row justify-center p-3">
+    <h7> A blog about modern technology.</h7>
+  </div>
+</header>
+
+<main>
+  <div>
+    {{#if songs.length}}
+    <div class="text-center song-list">
+      <br>
+      <h2>ModernTech Post List:</h2>
+      <br>
+      {{#each songs as |song|}}
+      <div class="row mb-2 song-list outline songcard">
+        <div class="col-md-8" id = "bulk">
+          <h5>"{{song_name}}"</h5>
+          <div> by
+            <h3>{{artist_name}}</h3>
+          </div>
+          <img src={{ url }}>
+          <div class = "song_content">
+            <iframe class = "video_iframe"
+            src="{{ song.video_link }}" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <div id = "special">
+            {{#each comments as |comment| }}
+            <p>"{{comment.comment_text}}"</p>
+            {{/each}}
+          </div>
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-sm btn-danger" data-id="{{song.id}}">&#127911; Listen</button>
+          <br><br>
+          <button class="btn btn-sm btn-danger" data-id="{{song.id}}">&#128172; Comment</button>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    {{/if}}
+  </div>
+
+</main>
