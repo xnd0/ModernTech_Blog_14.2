@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "song_name": "Refugee",
+      "artist_name": "Tom Petty",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315438/figJam_songs/71YUxDOihbL._SS500__a8nlzn.jpg"
+    },
+    {
+      "id": 2,
+      "song_name": "Come Together",
+      "artist_name": "The Beatles",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315440/figJam_songs/Beatles_-_Abbey_Road_shsgtv.jpg"
+    },
+    {
+        "id": 3,
+        "song_name": "Three Little Birds",
+        "artist_name": "Bob Marley",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315444/figJam_songs/Bob_Marley_Three_Little_Birds_cintud.jpg"
+    },
+    {
+      "id": 4,
+      "song_name": "Total Eclipse of the Heart",
+      "artist_name": "Bonnie Tyler",
+      "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315448/figJam_songs/71rRdiOFzXL._SL1051__ycisxx.jpg"
+    },
+    {
+        "id": 5,
+        "song_name": "Never Gonna Give You Up",
+        "artist_name": "Rick Astley",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315443/figJam_songs/416DdbYOflL_e8xvoo.jpg"
+    },
+    {
+        "id": 6,
+        "song_name": "Livin' on a Prayer",
+        "artist_name": "Bon Jovi",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315524/figJam_songs/518ef65959b13ef8b92c724fb05312cf.1000x1000x1_umemlc.jpg"
+    },
+    {
+        "id": 7,
+        "song_name": "Me Porto Bonito",
+        "artist_name": "Bad Bunny",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657315447/figJam_songs/Bad-Bunny-Un-Verano-Sin-Ti_jedlod.jpg"
+    },
+    {
+        "id": 8,
+        "song_name": "Love Will Never Do Without You",
+        "artist_name": "Janet Jackson",
+        "url": "https://res.cloudinary.com/deubd4mph/image/upload/v1657574352/figJam_songs/Janet_Jackson_Love_Will_Never_Do_Without_You_riefoh.png"
+    }
+  ]

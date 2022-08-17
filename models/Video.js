@@ -1,16 +1,16 @@
 const {Model, DataTypes} = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Comment extends Model {}
+class Video extends Model {}
 
-Comment.init(
+Video.init(
     {
         id:{
             type: DataTypes.INTEGER,
             primaryKey: true,
             autoIncrement: true
         },
-        comment_text:{
+        video_link:{
             type: DataTypes.STRING
         },
         song_id: {
@@ -25,8 +25,8 @@ Comment.init(
         sequelize,
         timestamps: false,
         freezeTableName: true,
-        modelName: 'comment'
+        modelName: 'video'
     }
 )
 
-module.exports = Comment;
+module.exports = Video;
