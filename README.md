@@ -4,7 +4,7 @@
 <br>
 
 ## Description:
-A user-submitted modernTech blog - where developers can publish their posts and comment on other developers’ posts as well.
+A user-submitted modernTech blog - where developers can publish their posts and comment on other developers’ posts as well. Sign up & Log in to post.
 <br><br>
 
 ## Links: <br>
@@ -14,7 +14,8 @@ live: https://afternoon-mountain-24064.herokuapp.com/
 <br><br>
 
 ## Screenshots:
--screenshot in progress-
+![View of the Homepage](moderntech1.png)
+![View of add-a-post page](moderntech2.png)
 <br>
 
 ## Technologies Used:
